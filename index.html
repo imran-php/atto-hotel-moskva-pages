@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Гостиница Москва - официальный сайт. Москва, ул. Охотный Ряд, 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="https://www.hotel-moskva.ru/styles.css" type="text/css" media="all"  />
+    <link rel="icon" href="https://www.hotel-moskva.ru/img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-container">
+        <div class="logo">
+            <h1>Гостиница Москва</h1>
+            <p>Официальный сайт. Москва, ул. Охотный Ряд, 2</p>
+        </div>
+        
+        <!-- Десктопное меню -->
+        <div class="nav-links">
+            <a href="./">Главная</a>
+            <a href="#history">Об отеле</a>
+            <a href="https://www.hotel-moskva.ru/foto.html">Номера</a>
+            <a href="#amenities">Услуги</a>
+            <a href="#contact">Контакты</a>
+            <a href="https://www.hotel-moskva.ru/booking.html" class="btn-book"><i class="fas fa-calendar-check"></i> Забронировать</a>
+        </div>
+
+        <!-- Кнопка гамбургер -->
+        <button class="burger-menu" id="burgerBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- Мобильное выдвижное меню -->
+<div class="mobile-nav" id="mobileNav">
+    <a href="./">Главная</a>
+    <a href="#history">Об отеле</a>
+    <a href="https://www.hotel-moskva.ru/foto.html">Номера</a>
+    <a href="#amenities">Услуги</a>
+    <a href="#contact">Контакты</a>
+    <a href="https://www.hotel-moskva.ru/booking.html" class="mobile-btn-book"><i class="fas fa-calendar-check"></i> Забронировать сейчас</a>
+</div>
+<div class="overlay" id="overlay"></div>
+
+<header class="hero">
+    <div class="container hero-grid">
+        <div class="hero-text">
+            <span class="hero-badge"><i class="fas fa-star-of-life"></i> Легендарный отель в сердце Москвы</span>
+            <h1>Резиденции в гостинице Москва</h1>
+            <p>Памятник советской архитектуры, возрожденный для будущих поколений. Ваши резиденции для отдыха в отеле и гостинице у самых стен Кремля.</p>
+            <div class="address-block">
+                <div class="address-item"><i class="fas fa-map-marker-alt"></i> <span>Москва, ул. Охотный Ряд, д.2</span></div>
+                <div class="address-item"><i class="fas fa-subway"></i> <span>м. Театральная / Охотный ряд / Пл. Революции</span></div>
+                <div class="address-item"><i class="fas fa-globe"></i> <span>GPS: 55.756738, 37.616641</span></div>
+            </div>
+            <div style="margin-top: 28px;">
+			    <a href="https://www.hotel-moskva.ru/booking.html" class="btn-book"><i class="fas fa-calendar-check"></i> Забронировать</a>
+                <a href="#contact" class="btn-outline"><i class="fas fa-phone-alt"></i> Схема проезда</a>
+                <a href="https://www.hotel-moskva.ru/foto.html" class="btn-outline"><i class="fas fa-images"></i> Фото номеров</a>
+            </div>
+        </div>
+        <div class="hero-map">
+            <div class="map-placeholder">
+                <img src="https://www.hotel-moskva.ru/img/hotel.jpg">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="section" id="history">
+        <div class="container">
+            <h2 class="section-title">История & дух времени</h2>
+            <div class="history-grid">
+                <div class="history-text">
+                    <p><strong>Гостиница «Москва»</strong> — первая советская гостиница, построенная в 1933–1935 годах в нескольких сотнях метров от Кремля. Много лет она считалась главной в стране, символом новой эпохи. В 2000 году здание признали аварийным, а к 2004-му — снесли, сохранив исторические фрагменты фасада.</p>
+                    <p>В 2012 году началось возрождение, и сегодня на этом месте находится легендарный отель - 16 этажей ультрасовременного сервиса, люксовые номера, рестораны и SPA-центр. Отель вновь открыл двери в 2016 году.</p>
+                    <p>Современно оборудованные номера, панорамные конференц-залы, торговая галерея, <a href="https://www.newdosug.ru/sauna/">сауна</a>, подземный паркинг - всё для безупречного отдыха.</p>
+                    <a href="https://www.hotel-moskva.ru/booking.html" class="btn-book"><i class="fas fa-calendar-check"></i> Забронировать</a>
+                </div>
+                <div class="info-cards">
+                    <div class="card-sm">
+                        <i class="fas fa-building"></i>
+                        <h3>Архитектурное наследие</h3>
+                        <p>Памятник советского авангарда, уникальный фасад и легенда о разной высоте крыльев.</p>
+                    </div>
+                    <div class="card-sm">
+                        <i class="fas fa-swimming-pool"></i>
+                        <h3>Отель - это</h3>
+                        <p>SPA-салон, фитнес, консьерж 24/7, изысканная кухня и лучший вид на Манежную площадь.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="section" style="background-color: #fefaf7;">
+        <div class="container">
+            <h2 class="section-title">Номера и люксы</h2>
+            <p style="margin-bottom: 20px;">Современный комфорт, дизайнерский интерьер, мраморные ванные и панорамные окна. Вот <a href="https://panorama-3d.ru">3D панорама</a> нашего отеля.</p>
+            <div class="photo-gallery">
+                <div class="photo-card" style="background-image: url('https://www.hotel-moskva.ru/foto/1.jpg'); background-size: cover;"></div>
+				<div class="photo-card" style="background-image: url('https://www.hotel-moskva.ru/foto/2.jpg'); background-size: cover;"></div>
+				<div class="photo-card" style="background-image: url('https://www.hotel-moskva.ru/foto/3.jpg'); background-size: cover;"></div>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://www.hotel-moskva.ru/foto.html" class="btn-primary"><i class="fas fa-eye"></i> Все номера и цены</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="amenities" class="section">
+        <div class="container">
+            <h2 class="section-title">Изысканные удобства</h2>
+            <div class="amenities">
+                <div class="amenity-item"><i class="fas fa-concierge-bell"></i><h3>Рестораны & Бары</h3><p>Авторская кухня, вид на Кремль</p></div>
+                <div class="amenity-item"><i class="fas fa-spa"></i><h3>SPA & Wellness</h3><p>Сауна, массаж, фитнес-центр</p></div>
+                <div class="amenity-item"><i class="fas fa-chalkboard-user"></i><h3>Бизнес-центр</h3><p>Конференц-залы до 400 чел</p></div>
+                <div class="amenity-item"><i class="fas fa-car"></i><h3>Подземный паркинг</h3><p>Охраняемая парковка</p></div>
+                <div class="amenity-item"><i class="fas fa-store"></i><h3>Торговая галерея</h3><p>Бутики, ювелирные салоны</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background: #f4f0eb;">
+        <div class="container">
+            <h2 class="section-title">Контакты и расположение</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p><i class="fas fa-map-pin" style="color:#b6482c; width: 28px;"></i> <strong>Адрес:</strong> г. Москва, ул. Охотный Ряд, дом 2</p>
+                    <p><i class="fas fa-train"></i> <strong>Метро:</strong> Театральная, Охотный ряд, Площадь Революции (5 мин)</p>
+                    <!-- <p><i class="fas fa-phone-alt"></i> <strong>Справочная:</strong> +7 (495) 259-20-00</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> info@hotel-moskva.ru</p> -->
+                    <div style="margin-top: 20px;">
+                        <a href="https://www.hotel-moskva.ru/booking.html" class="btn-book"><i class="fas fa-calendar-check"></i> Забронировать</a>
+                        <a href="https://www.hotel-moskva.ru/english.html" class="btn-outline"><i class="fas fa-language"></i> English version</a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <i class="fas fa-map-marked-alt" style="font-size: 2rem; color:#b6482c;"></i>
+                    <p style="margin: 10px 0;"><strong>Координаты:</strong><br>55°45'24.26"N | 37°36'59.91"E</p>
+                    <div style="background:#aba196; height: 300px; border-radius: 20px; margin-top: 12px; display: flex; align-items: center; justify-content: center; color:white;">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acc04cd6cdf66fedd87deb323fc15bc8c98dc7580649f2c8e9631fe13ee4e3ec8&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-copy">
+            &copy; <script>document.write(new Date().getFullYear());</script> Резиденции в гостинице Москва - официальный сайт. <a href="https://www.hotel-moskva.ru/booking.html">Забронировать номер -></a>
+			<br><!--LiveInternet counter--><img id="licntDA79" width="88" height="31" style="border:0" 
+title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня"
+src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+alt=""/><script>(function(d,s){d.getElementById("licntDA79").src=
+"https://counter.yadro.ru/hit?t18.1;r"+escape(d.referrer)+
+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+(document,screen)</script><!--/LiveInternet-->
+        </div>
+        <div class="footer-copy">Сайт разработан компанией ATTO</div>
+    </div>
+</footer>
+
+<script>
+    // Мобильное меню-бургер
+    const burgerBtn = document.getElementById('burgerBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const overlay = document.getElementById('overlay');
+
+    function openMenu() {
+        mobileNav.classList.add('active');
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+        mobileNav.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    burgerBtn.addEventListener('click', openMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    // Закрываем меню при клике на ссылку в мобильном меню
+    document.querySelectorAll('.mobile-nav a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            closeMenu();
+            // Плавный скролл к якорю, если ссылка ведет на секцию
+            const href = link.getAttribute('href');
+            if(href && href !== '#' && href !== '#!' && document.querySelector(href)) {
+                e.preventDefault();
+                document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+
+    // Плавный скролл для десктопных якорей
+    document.querySelectorAll('.nav-links a[href^="#"], .btn-primary[href^="#"], .btn-outline[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if(href && href !== '#' && href !== '#!' && document.querySelector(href)) {
+                e.preventDefault();
+                document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+</script>
+<!-- proverka 6190 -->
+</body>
+</html>
